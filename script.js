@@ -90,7 +90,7 @@ const projects = [
         title: "Girls Plan",
         subtitle: "Educational Game for Womens Rights",
         shortDesc: "This educational game was developed in collaboration with Plan International Belgium to raise awareness about girls' rights. Designed for children aged 10 to 14.",
-        thumbnail: "../assets/gifs/GirlsPlanProject/GirlsPlanGameplay.gif",
+        thumbnail: "assets/gifs/GirlsPlanProject/GirlsPlanGameplay.gif",
         mainGif: "../assets/gifs/GirlsPlanProject/GirlsPlanGameplay.gif",
         screenshots: [
             "../assets/screenshots/GirlsPlanProjectSS/InGameSS.jpg", 
