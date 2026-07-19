@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="loading-transition">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass">
+        <div class="nav-content">
+            <a href="index.html" class="nav-logo" id="nav-name"><!-- POPULATED BY JS --></a>
+            
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-socials" id="nav-socials-container">
+                    <!-- SOCIAL LINKS POPULATED BY JS -->
+                </li>
+                <li><a id="nav-cv" href="#" target="_blank" class="btn btn-outline">Download CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="container">
+        <div class="hero-content fade-in">
+            <div class="hero-text">
+                <div class="badge glass"><i class="fas fa-circle badge-indicator"></i> Available for Work</div>
+                <h1 id="hero-name"><!-- POPULATED BY JS --></h1>
+                <h2 id="hero-title" class="gradient-text"><!-- POPULATED BY JS --></h2>
+                <p id="hero-summary"><!-- POPULATED BY JS --></p>
+                <div class="hero-meta">
+                    <span id="hero-location"><i class="fas fa-map-marker-alt"></i> <!-- POPULATED BY JS --></span>
+                    <span id="hero-interests"><i class="fas fa-gamepad"></i> <!-- POPULATED BY JS --></span>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <button id="copy-email-btn" class="btn btn-glass"><i class="fas fa-envelope"></i> Copy Email</button>
+                </div>
+            </div>
+            <div class="hero-image-container glass">
+                <img id="hero-image" src="assets/profile/Portfolio_Pfp.jpg" alt="Profile Picture" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div id="projects-grid" class="projects-grid fade-in">
+            <!-- PROJECT CARDS POPULATED BY JS -->
+        </div>
+    </section>
+
+    <!-- Education & Skills Section -->
+    <section id="skills" class="container">
+        <div class="two-col-layout fade-in">
+            
+            <!-- Technical Skills -->
+            <div class="skills-container glass section-card">
+                <h3 class="section-subtitle"><i class="fas fa-code"></i> Technical Skills</h3>
+                <div id="skills-grid" class="skills-grid">
+                    <!-- SKILLS POPULATED BY JS -->
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education-container glass section-card">
+                <h3 class="section-subtitle"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div id="education-timeline" class="timeline">
+                    <!-- EDUCATION POPULATED BY JS -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="glass section-card fade-in">
+            <h2 class="section-title">About Me</h2>
+            <div id="about-content" class="about-text">
+                <!-- ABOUT TEXT POPULATED BY JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass">
+        <p>&copy; <span id="current-year"></span> <span id="footer-name"></span>. Built without frameworks.</p>
+    </footer>
+
+    <!-- Back to top -->
+    <button id="back-to-top" class="glass" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <!-- Note the updated path for CSS relative to /projects/ -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="loading-transition">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass">
+        <div class="nav-content">
+            <a href="../index.html" class="nav-logo" id="nav-name">Back to Portfolio</a>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <header class="project-hero container fade-in">
+        <h1 id="proj-title" class="gradient-text">Project Title</h1>
+        <h2 id="proj-subtitle">Project Subtitle</h2>
+        <div class="hero-gif-container glass mt-2">
+            <img id="proj-main-gif" src="../assets/gifs/placeholder-hero.gif" alt="Gameplay GIF" loading="lazy">
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <section class="container fade-in mt-4">
+        <div class="carousel-container glass">
+            <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track" id="proj-carousel">
+                    <!-- CAROUSEL IMAGES INJECTED BY JS -->
+                </ul>
+            </div>
+            <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Project Details Grid -->
+    <section class="container fade-in mt-4">
+        <div class="two-col-layout">
+            <!-- About -->
+            <div class="glass section-card">
+                <h3 class="section-subtitle">About</h3>
+                <p id="proj-about-text">Loading description...</p>
+                
+                <div class="action-links mt-2" id="proj-links">
+                    <!-- LINKS INJECTED BY JS (e.g. GitHub, Download) -->
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="glass section-card">
+                <h3 class="section-subtitle">Project Information</h3>
+                <ul class="info-list" id="proj-info-list">
+                    <!-- ENGINE, LANGUAGE, ETC INJECTED BY JS -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Write-up -->
+    <section class="container fade-in mt-4 mb-4">
+        <div class="glass section-card" id="proj-writeup">
+            <!-- SECTIONS (Architecture, AI, etc.) INJECTED BY JS -->
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
