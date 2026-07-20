@@ -151,8 +151,8 @@ const projects = [
         id: "project-sfmlagario",
         title: "SFML Agario",
         subtitle: "UDP Networked Agario clone",
-        shortDesc: "This simulation leverages modern OpenGL and C++ to visualize the gravitational effects of a stellar-mass black hole, complete with an accretion disk, gravitational lensing effects, realistic planet models and a dynamic skybox. .",
-        thumbnail: "assets/gifs/BlackHoleProject/BH_Cover.gif",
+        shortDesc: "Designed and developed a multiplayer Agar.io clone in C++, featuring a UDP client-server architecture and SFML for graphics, input, and game rendering.",
+        thumbnail: "assets/gifs/SFMLAgarioProject/SFML_Agario.gif",
         mainGif: "../assets/gifs/BlackHoleProject/BH_Cover.gif",
         screenshots: [
             "../assets/screenshots/BHProjectSS/BlackholeCover.png",
@@ -193,6 +193,48 @@ const projects = [
         id: "project-solas",
         title: "Solas",
         subtitle: "An Action adventure",
+        shortDesc: "This simulation leverages modern OpenGL and C++ to visualize the gravitational effects of a stellar-mass black hole, complete with an accretion disk, gravitational lensing effects, realistic planet models and a dynamic skybox. .",
+        thumbnail: "assets/gifs/SolasProject/Solas_Light_Regen_Gif.gif",
+        mainGif: "../assets/gifs/BlackHoleProject/BH_Cover.gif",
+        screenshots: [
+            "../assets/screenshots/BHProjectSS/BlackholeCover.png",
+            "../assets/screenshots/BHProjectSS/2DSim.png",
+            "../assets/screenshots/BHProjectSS/Early3DAttempts.png"
+        ],
+        tags: ["Unreal Engine 5", "Blueprints", "College Project", "Team"],
+        details: {
+            Engine: "Unreal Engine 5",
+            Language: "Blueprints",
+            Platform: "PC (Windows)",
+            TeamSize: "6",
+            DevTime: "10 Months",
+            Role: "Lead Programmer",
+            Status: "Released (Itch.io)",
+            Genre: "Action-Adventure"
+        },
+        links: [
+            { text: "View Repository", url: "#", icon: "fab fa-github", style: "btn-outline" },
+            { text: "Play Game", url: "#", icon: "fas fa-gamepad", style: "btn-primary" }
+        ],
+        writeup: [
+            {
+                heading: "Overview",
+                text: "Project Omega started as a game jam entry that evolved into a 6-month capstone project. The goal was to create a fluid, momentum-based shooter inspired by Titanfall." // <!-- PLACEHOLDER -->
+            },
+            {
+                heading: "Technical Challenges (AI Systems)",
+                text: "To make the enemies challenging in a high-mobility environment, I developed a custom utility-based AI system in C++. The AI dynamically evaluates player velocity and trajectory to predict movement and coordinate flanking maneuvers." // <!-- PLACEHOLDER -->
+            },
+            {
+                heading: "Lessons Learned",
+                text: "Balancing C++ performance with Blueprint flexibility for the designers was crucial. I learned how to architect native classes that expose intuitive variables to the editor." // <!-- PLACEHOLDER -->
+            }
+        ]
+    },
+    {
+        id: "project-misc",
+        title: "Small project Collection",
+        subtitle: "Game Jams, College projects, etc.",
         shortDesc: "This simulation leverages modern OpenGL and C++ to visualize the gravitational effects of a stellar-mass black hole, complete with an accretion disk, gravitational lensing effects, realistic planet models and a dynamic skybox. .",
         thumbnail: "assets/gifs/BlackHoleProject/BH_Cover.gif",
         mainGif: "../assets/gifs/BlackHoleProject/BH_Cover.gif",
