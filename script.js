@@ -749,6 +749,7 @@ function populateNav() {
     const navCv = document.getElementById("nav-cv");
     if (navCv) {
         navCv.href = config.personalInfo.resumeLink;
+        navCv.setAttribute("download", "Michal_Becmer_CV.pdf");
     }
     
     const socialsContainer = document.getElementById("nav-socials-container");
