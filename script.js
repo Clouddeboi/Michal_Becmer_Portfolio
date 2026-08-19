@@ -1,6 +1,3 @@
-/* ==========================================================================
-   PORTFOLIO CONFIGURATION (EDIT THIS TO CUSTOMIZE YOUR SITE)
-   ========================================================================== */
 const config = {
     personalInfo: {
         name: "Michal Becmer", 
@@ -14,7 +11,7 @@ const config = {
             <br>
             <p>With a strong focus on programming and systems development, I enjoy building robust, scalable gameplay systems and exploring the technical side of game development. I’m driven by a desire to continuously learn, experiment with new technologies, and create polished experiences that bring creative ideas to life..</p>
         `,
-        resumeLink: "assets/resume/Michal_Becmer_CV.pdf"
+        resumeLink: "../assets/resume/Michal_Becmer_CV.pdf"
     },
     socials: [
         { name: "GitHub", icon: "fab fa-github", url: "https://github.com/Clouddeboi" },
